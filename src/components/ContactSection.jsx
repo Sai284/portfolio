@@ -62,7 +62,7 @@ export const ContactSection = () => {
         <div className="mt-16 text-center">
           <h3 className="text-2xl font-semibold mb-6">Let's Connect</h3>
           <a
-            href="https://www.linkedin.com/in/your-profile"
+            href="https://www.linkedin.com/in/saipolukonda/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-full hover:bg-primary/90 transition-colors"
