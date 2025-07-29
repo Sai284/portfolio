@@ -3,30 +3,30 @@ import { cn } from "@/lib/utils"
 
 const skills = [
   // Frontend
-  { name: "HTML/CSS", level: 80, category: "frontend" },
-  { name: "JavaScript", level: 60, category: "frontend" },
-  { name: "React (In Progress)", level: 60, category: "frontend" },
-  { name: "TypeScript", level: 70, category: "frontend" },
-  { name: "Tailwind CSS", level: 80, category: "frontend" },
+  { name: "HTML/CSS", category: "frontend" },
+  { name: "JavaScript", category: "frontend" },
+  { name: "React (In Progress)", category: "frontend" },
+  { name: "TypeScript", category: "frontend" },
+  { name: "Tailwind CSS", category: "frontend" },
 
   // Backend
-  { name: "Node.js", level: 70, category: "backend" },
-  { name: "Java (Currently Upskilling)", level: 50, category: "backend" },
-  { name: "Python", level: 75, category: "backend" },
-  { name: "Django", level: 65, category: "backend" },
-  { name: "PostgreSQL", level: 60, category: "backend" },
+  { name: "Node.js", category: "backend" },
+  { name: "Java (Currently Upskilling)", category: "backend" },
+  { name: "Python", category: "backend" },
+  { name: "Django", category: "backend" },
+  { name: "PostgreSQL", category: "backend" },
 
   // Data Science
-  { name: "NumPy", level: 70, category: "datascience" },
-  { name: "Pandas", level: 70, category: "datascience" },
-  { name: "Data Analysis", level: 70, category: "datascience" },
+  { name: "NumPy", category: "datascience" },
+  { name: "Pandas", category: "datascience" },
+  { name: "Data Analysis", category: "datascience" },
+  { name: "scikit-learn", category: "datascience" },
 
   // Tools
-  { name: "Git/GitHub/GitLab", level: 80, category: "tools" },
-  { name: "Docker", level: 70, category: "tools" },
-  { name: "Figma", level: 85, category: "tools" },
-  { name: "VS Code", level: 95, category: "tools" },
-
+  { name: "Git/GitHub/GitLab", category: "tools" },
+  { name: "Docker", category: "tools" },
+  { name: "Figma", category: "tools" },
+  { name: "VS Code", category: "tools" },
 ];
 
 const categories = ["all", "frontend", "backend", "datascience", "tools"];
@@ -68,20 +68,8 @@ export const SkillsSection = () => {
               key={key}
               className="bg-card p-6 rounded-lg shadow-xs card-hover"
             >
-              <div className="text-left mb-4">
-                <h3 className="font-semibold text-lg"> {skill.name}</h3>
-              </div>
-              <div className="w-full bg-secondary/50 h-2 rounded-full overflow-hidden">
-                <div
-                  className="bg-primary h-2 rounded-full origin-left animate-[grow_1.5s_ease-out]"
-                  style={{ width: skill.level + "%" }}
-                />
-              </div>
-
-              <div className="text-right mt-1">
-                <span className="text-sm text-muted-foreground">
-                  {skill.level}%
-                </span>
+              <div className="text-left">
+                <h3 className="font-semibold text-lg">{skill.name}</h3>
               </div>
             </div>
           ))}
