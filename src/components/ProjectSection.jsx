@@ -13,12 +13,12 @@ const projects = [
   },
   {
     id: 2,
-    title: "WearWellWardrobe Uni Group Project",
-    description: "A sustainable clothing management app designed for UK households, offering tailored advice and a personalized questionnaire to guide users. It covers key areas: Access (sustainable sourcing), Maintain (garment care), Store (smart storage), Adapt (upcycling), and Dispose (refuse, reuse, recycle). Built on competitor research, it promotes eco-friendly habits without encouraging overconsumption, helping users extend clothing lifespans responsibly.",
-    image: "/projects/WearWellWardrobePlaceholder.PNG",
-    tags: ["React", "Django"],
+    title: "Monte Carlo Practice Simulation",
+    description: "Monte Carlo simulation to model the possible future values of an investment portfolio over time.",
+    image: "/projects/MonteCarlo.png",
+    tags: ["Python", "Numpy", "Matplotlib"],
     demoUrl: "#",
-    githubUrl: "https://github.com/Sai284/WearWellWardrobe",
+    githubUrl: "https://github.com/Sai284/monte-carlo-sim-practice",
   },
   {
     id: 3,
@@ -37,7 +37,16 @@ const projects = [
     tags: ["Data Analysis", 'Python', 'Financial Modelling'],
     demoUrl: "#",
     githubUrl: "https://github.com/Sai284/Regression_AMD_Gold",
-  }
+  },
+  {
+    id: 5,
+    title: "WearWellWardrobe Uni Group Project",
+    description: "A sustainable clothing management app designed for UK households, offering tailored advice and a personalized questionnaire to guide users. It covers key areas: Access (sustainable sourcing), Maintain (garment care), Store (smart storage), Adapt (upcycling), and Dispose (refuse, reuse, recycle). Built on competitor research, it promotes eco-friendly habits without encouraging overconsumption, helping users extend clothing lifespans responsibly.",
+    image: "/projects/WearWellWardrobePlaceholder.PNG",
+    tags: ["React", "Django"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/Sai284/WearWellWardrobe",
+  },
 
 ];
 
