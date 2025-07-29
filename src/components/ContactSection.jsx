@@ -1,4 +1,4 @@
-import { LinkedIn, Mail, Phone, MapPin } from "lucide-react";
+import { Linkedin, Mail, Phone, MapPin } from "lucide-react";
 
 export const ContactSection = () => {
   return (
@@ -67,7 +67,7 @@ export const ContactSection = () => {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-full hover:bg-primary/90 transition-colors"
           >
-            <LinkedIn className="h-5 w-5" />
+            <Linkedin className="h-5 w-5" />
             Connect on LinkedIn
           </a>
         </div>
