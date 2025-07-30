@@ -22,6 +22,15 @@ const projects = [
   },
   {
     id: 3,
+    title: "Credit Risk Monte Carlo Simulation ",
+    description: "A Python script to simulate credit risk in a portfolio of loans using a Monte Carlo approach. The simulation estimates the possible losses a lender might face due to defaults in their loan portfolio, helping to visualize the distribution and likelihood of different loss scenarios.",
+    image: "/projects/CreditRiskMonteCarlo.png",
+    tags: ["Python", "NumPy", "Matplotlib"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/Sai284/credit-risk-monte-carlo-sim",
+  },
+  {
+    id: 4,
     title: "NBA Predictions",
     description: "Python-based application designed to evaluate predictive models that analyze NBA player performance data. The program retrieves historical game logs via the NBA API, processes the data, and applies machine learning algorithms to assess the efficacy of different prediction models. Results, including actual versus predicted statistics, are visualized using matplotlib to demonstrate the accuracy of the models.",
     image: "/projects/NBAScreenShot.png",
@@ -30,7 +39,7 @@ const projects = [
     githubUrl: "https://github.com/Sai284/nba_predictions",
   },
   {
-    id: 4,
+    id: 5,
     title: "Regression Modelling AMD vs Gold",
     description: "This project examines the relationship between AMD stock prices and gold prices using statistical modeling. Analysis of historical data reveals a strong positive correlation (0.785), with gold prices explaining 62% of AMD's price movements. Includes Python scripts for data collection (`yfinance`), cleaning, and regression analysis.",
     image: "/projects/RegressionScreenShot.png",
@@ -39,7 +48,7 @@ const projects = [
     githubUrl: "https://github.com/Sai284/Regression_AMD_Gold",
   },
   {
-    id: 5,
+    id: 6,
     title: "WearWellWardrobe Uni Group Project",
     description: "A sustainable clothing management app designed for UK households, offering tailored advice and a personalized questionnaire to guide users. It covers key areas: Access (sustainable sourcing), Maintain (garment care), Store (smart storage), Adapt (upcycling), and Dispose (refuse, reuse, recycle). Built on competitor research, it promotes eco-friendly habits without encouraging overconsumption, helping users extend clothing lifespans responsibly.",
     image: "/projects/WearWellWardrobePlaceholder.PNG",
